@@ -15,3 +15,4 @@ if (cmd=='<program> --input <path to music folder> --list-files'):
         if os.path.isfile(os.path.join(dir_path, path)):
             res.append(path)
     print(res)
+
